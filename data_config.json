@@ -1,0 +1,48 @@
+{
+    "models": [
+        "adsq",
+        "br3",
+        "pdl1-3",
+        "pdl1-2"
+    ],
+    "labels": {
+        "adsq": "HISTOLOGY",
+        "br3": "BEST_RESPONSE_3",
+        "pdl1-3": "PDL1_CATHEGORY",
+        "pdl1-2": "PDL1_BINARY"
+    },
+    "model_outdir": {
+        "adsq": "/media/mmd/Samsung_T5/GitHub/UMD/projects/trained_models/adsq",
+        "br3": "/media/mmd/Samsung_T5/GitHub/UMD/projects/trained_models/br3",
+        "pdl1-3": "/media/mmd/Samsung_T5/GitHub/UMD/projects/trained_models/pdl1-3",
+        "pdl1-2": "/media/mmd/Samsung_T5/GitHub/UMD/projects/trained_models/pdl1-2"
+
+
+    },
+    "filter_adsq": {
+        "HISTOLOGY": [
+            "squamous",
+            "adenocarcinoma"
+        ]
+    },
+    "filter_br3": {
+        "BEST_RESPONSE_3": [
+            "2.0",
+            "1.0",
+            "0.0"
+        ]
+    },
+    "filter_pdl1-3": {
+        "PDL1_CATHEGORY": [
+            "1-49 %",
+            ">=50 %",
+            "< 1 %"
+        ]
+    },
+    "filter_pdl1-2": {
+        "PDL1_BINARY": [
+            "0-49 %",
+            ">=50 %"
+        ]
+    }
+}
